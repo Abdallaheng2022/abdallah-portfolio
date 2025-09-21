@@ -33,7 +33,7 @@ jobs:
           fi
 
       - name: Build
-        run: npm run App --if-present
+        run: npm run main --if-present
 
       - name: Test (if any)
         run: npm test --if-present
